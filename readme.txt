@@ -7,7 +7,7 @@ Description:  Prevents WordPress from showing User login and User ID. It filter 
 Usage: No configuration necessary. Upload, activate and done.
 Availables languages : en_EN, fr_FR
 Tags: security, protect, user login, user nicename, user nickname, user display name, body_class
-Author: Daniel Roch
+Author: Confridin
 Author URI: http://www.seomix.fr
 Contributors: juliobox
 Requires at least: 3.5
