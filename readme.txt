@@ -9,32 +9,41 @@ Availables languages : en_EN, fr_FR
 Tags: security, protect, user login, user nicename, user nickname, user display name, body_class
 Author: Confridin
 Author URI: http://www.seomix.fr
+Contributors: juliobox
 Requires at least: 3.5
 Tested up to: 3.5
 Stable tag: trunk
 License: GPL v3
 
-User Name Security prevents WordPress from showing your real Login, by overriding User Nicename, Nickname and Display Name
+User Name Security prevents WordPress from showing your real Login, by overriding User Nicename, Nickname and Display Name and th body_class function.
 
 == Description ==
 
-WordPress automaticaly uses User login to fill in User Display Name. It also allows everyone to use the same value for Nickanme, Display Name and login. A hacker may use this information to guess your login. And the body_class function alos show to everyone the User ID and User Nicename.
+WordPress automaticaly uses User login to fill in User Display Name. WordPress also allows everyone to use the same value for Nickanme, Display Name and Login. A hacker may use this information to find your login. And the body_class function also shows to everyone your User ID and Nicename ont author pages.
 
 Once activated, User Name Security will prevent WordPress from showing those informations
 
 **Features include**
 
+Body_class function :
+
 * Removes User ID from body_class function (author pages)
 * Removes User Nicename from body_class function (author pages)
-* When user is logged in, change Display Name and Nickname to random value if they are equal to User login
-* When user is logged in, change Display Name to Nickname if it is equal to User login
-* When user is logged in, change Nickname to Display Name if it is equal to User login
-* When a new registration is completed, changes Display Name and Nickname to random value
-* When a new registration is completed, changes Nicename to random value : exemple profil-5651646 (random number)
 
-Random is available in English and French. For exemple :
-* New User 2513787 (random number)
-* Nouvel utilisateur 2513787 (random number)
+User informations :
+
+* When user is logged in, the plugin changes Display Name and Nickname to random value if they are equal to User login
+* If not, it changes Display Name to Nickname or Nickname to Display Name if one of them is equal to User login
+
+New Registration :
+* Display Name and Nickname are changed to random value during user registration.
+* Nicename is also changed to a random value : profil-5651646 for french users and user-5651646 for english (with a random number)
+
+All functions are translated into french or english.
+
+Thanks to Julio Potier for his help : http://www.boiteaweb.fr/
+
+You can find me here : http://www.seomix.fr
 
 == Installation ==
 
@@ -46,7 +55,7 @@ No screenshots available - code only.
 
 == Changelog ==
 
-**2013/03/01**
+**2013/03/08**
 
 * first release
 
