@@ -35,6 +35,7 @@ User informations :
 * If not, it changes Display Name to Nickname or Nickname to Display Name if one of them is equal to User login
 
 New Registration :
+
 * Display Name and Nickname are changed to random value during user registration.
 * Nicename is also changed to a random value : profil-5651646 for french users and user-5651646 for english (with a random number)
 
