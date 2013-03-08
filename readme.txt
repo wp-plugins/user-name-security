@@ -9,7 +9,6 @@ Availables languages : en_EN, fr_FR
 Tags: security, protect, user login, user nicename, user nickname, user display name, body_class
 Author: Confridin
 Author URI: http://www.seomix.fr
-Contributors: juliobox
 Requires at least: 3.5
 Tested up to: 3.5
 Stable tag: trunk
