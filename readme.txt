@@ -14,7 +14,7 @@ Tested up to: 3.5
 Stable tag: trunk
 License: GPL v3
 
-User Name Security prevents WordPress from showing your real Login, by overriding User Nicename, Nickname and Display Name and th body_class function.
+User Name Security prevents WordPress from showing your real Login, by overriding User Nicename, Nickname and Display Name and the body_class function.
 
 == Description ==
 
