@@ -3,11 +3,11 @@
 Plugin Name:  User Name Security
 Version:      1.0
 Plugin URI:   http://www.seomix.fr
-Description:  Prevents WordPress from showing User login and User ID. It filter User Nicename, Nickname and Display Name  in order to avoid showing real User Login. This plugin also filter the body_class function to remove User ID and Nicename in it.
+Description:  Prevents WordPress from showing User login and User ID. "User Name Security" filters User Nicename, Nickname and Display Name in order to avoid showing real User Login. This plugin also filters the body_class function to remove User ID and Nicename in it.
 Usage: No configuration necessary. Upload, activate and done.
 Availables languages : en_EN, fr_FR
 Tags: security, protect, user login, user nicename, user nickname, user display name, body_class
-Author: Confridin
+Author: Confridin, juliobox
 Author URI: http://www.seomix.fr
 Requires at least: 3.5
 Tested up to: 3.5
@@ -51,7 +51,9 @@ No configuration is necessary. Upload, activate and done.
 
 == Screenshots ==
 
-No screenshots available - code only.
+1. "User Name Security" hides your author nicename and ID (body_class function)
+2. When a user Nickanme or Display Name are equals to Login, the plugin uses a random value instead.
+3. During registration, WordPress won't use the same Display Name and Login for new users : "User Name Security" uses a random value
 
 == Changelog ==
 
