@@ -51,9 +51,9 @@ No configuration is necessary. Upload, activate and done.
 
 == Screenshots ==
 
-1. "User Name Security" hides your author nicename and ID (body_class function)
-2. When a user Nickanme or Display Name are equals to Login, the plugin uses a random value instead.
-3. During registration, WordPress won't use the same Display Name and Login for new users : "User Name Security" uses a random value
+1. "User Name Security" hides your author nicename and ID (body_class function).
+2. When a user Nickname or Display Name are equals to Login, the plugin uses a random value instead.
+3. During registration, WordPress won't use the same Display Name and Login for new users : "User Name Security" uses a random value.
 
 == Changelog ==
 
