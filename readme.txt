@@ -44,7 +44,7 @@ All functions are translated into french or english.
 
 Thanks to Julio Potier for his help : http://www.boiteaweb.fr/
 
-You can find me here : http://www.seomix.fr
+You can find me here : http://www.seomix.fr, and here is the french official post about this plugin : http://www.seomix.fr/user-name-security/
 
 == Installation ==
 
