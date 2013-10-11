@@ -1,4 +1,4 @@
-=== SX User Name Security - By SeoMix ===
+=== SX User Name Security ===
 
 Plugin Name:  SX User Name Security
 Version:      1.0

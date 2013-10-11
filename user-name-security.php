@@ -3,8 +3,7 @@
 Plugin Name:  SX User Name Security
 Version:      1.0
 Plugin URI:   http://www.seomix.fr
-Description:  Prevents WordPress from showing User login and User ID. It filter User Nicename, Nickname and Display Name  in order to avoid showing real User Login. This plugin also filter the body_class function to remove User ID and Nicename in it.
-Usage: No configuration necessary. Upload, activate and done.
+Description:  Prevents WordPress from showing User login and User ID. "User Name Security" filters User Nicename, Nickname and Display Name in order to avoid showing real User Login. This plugin also filters the body_class function to remove User ID and Nicename in it.
 Availables languages : en_EN, fr_FR
 Tags: security, protect, user login, user nicename, user nickname, user display name, body_class
 Author: Daniel Roch
