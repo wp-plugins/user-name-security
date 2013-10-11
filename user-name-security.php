@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name:  User Name Security
+Plugin Name:  SX User Name Security
 Version:      1.0
 Plugin URI:   http://www.seomix.fr
 Description:  Prevents WordPress from showing User login and User ID. It filter User Nicename, Nickname and Display Name  in order to avoid showing real User Login. This plugin also filter the body_class function to remove User ID and Nicename in it.
@@ -30,6 +30,30 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+
+
+
+
+/**
+ Show every author on plugin Page
+ */
+add_filter( 'plugin_row_meta', 'pastacode_plugin_row_meta', 10, 2 );
+function pastacode_plugin_row_meta( $plugin_meta, $plugin_file ){
+  if( plugin_basename( __FILE__ ) == $plugin_file ){
+      $last = end( $plugin_meta );
+      $plugin_meta = array_slice( $plugin_meta, 0, -2 );
+      $a = array();
+      $authors = array(
+          array(  'name'=>'Daniel Roch', 'url'=>'http://www.seomix.fr/' ),
+          array(  'name'=>'Julio Potier', 'url'=>'http://www.boiteaweb.fr' ),
+      );
+      foreach( $authors as $author )
+          $a[] = '<a href="' . $author['url'] . '" title="' . esc_attr__( 'Visit author homepage' ) . '">' . $author['name'] . '</a>';
+      $a = sprintf( __( 'By %s' ), wp_sprintf( '%l', $a ) );
+      $plugin_meta[] = $a;
+      $plugin_meta[] = $last;
+  }
+  return $plugin_meta;}
 
 
 /**
