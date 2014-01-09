@@ -19,11 +19,11 @@ SX User Name Security prevents WordPress from showing your real Login to everyon
 
 == Description ==
 
-WordPress automaticaly uses User login to fill in the "User Display Name". WordPress also allows everyone to use the same value for Nickanme, Display Name and Login. A hacker can easily use your "NickName" or "Display Name" to find your real login. The body_class function also shows to everyone your User ID and Login on author pages.
+WordPress automaticaly uses "User login" to fill in the "User Display Name". WordPress also allows everyone to use the same value for Nickanme, Display Name and Login. A hacker can easily use your "NickName" or "Display Name" to find your real login. The body_class function also shows to everyone your User ID and Login on author pages.
 
 Once activated, SX User Name Security will prevent WordPress from showing those informations
 
-**Features include**
+**Features**
 
 Body_class function :
 
@@ -38,7 +38,7 @@ User informations :
 New Registration :
 
 * Display Name and Nickname are changed to random value during user registration.
-* Nicename is also changed to a random value : profil-5651646 for french users and user-5651646 for english (with a random number)
+* Nicename is also changed to a random value : profil-5651646 for french users and user-5651646 for english ones (with a random number)
 
 All functions are translated into french or english.
 
