@@ -1,25 +1,79 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: user-name-security\n"
-"POT-Creation-Date: 2013-03-01 14:21+0100\n"
-"PO-Revision-Date: 2013-03-01 14:22+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2014-03-26 14:22+0100\n"
+"PO-Revision-Date: 2014-03-26 14:22+0100\n"
+"Last-Translator: Daniel Roch <contact@seomix.fr>\n"
 "Language-Team: SeoMix <contact@seomix.fr>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
-"X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../Roch/Desktop/user-name-security.php:78
-#: ../Roch/Desktop/user-name-security.php:119
-msgid "New user"
-msgstr "Nouvel utilisateur"
+#: ../user-name-security.php:73
+#, php-format
+msgid "By %s"
+msgstr "Par %s"
 
-#: ../Roch/Desktop/user-name-security.php:121
-msgid "user"
-msgstr "profil"
+#: ../user-name-security.php:256
+msgid ""
+"Your <code>login</code> and your <code>nicename</code> <em>(used in URLs)</"
+"em> are the same and this is not secure. We don't want to force the change "
+"of this because it can lead to a 404 error. WordPress do not permit this "
+"edit easily."
+msgstr ""
+"Votre  <code>login</code> et votre <code>nicename</code> <em>(utilisé dans "
+"les URLs)</em> sont les mêmes et ce n'est pas sécurisé. Nous ne voulons pas "
+"forcer ce changement car cela peut causer des erreurs 404. WordPress ne "
+"permet pas cette modification simplement."
+
+#: ../user-name-security.php:262
+#, php-format
+msgid ""
+"We recommand you to install <a href=\"%s\">SF Author Url Control</a>. Then "
+"<a href=\"%s\">activate it</a> and finally <a href=\"%s\">change your "
+"nicename</a>."
+msgstr ""
+"Nous nousrecommandons d'installer <a href=\"%s\">SF Author Url Control</a>. "
+"Puis<a href=\"%s\">activez le</a> et enfin <a href=\"%s\">changer votre "
+"nicename</a>."
+
+#: ../user-name-security.php:265
+#, php-format
+msgid ""
+"You have already installed <b>SF Author Url Control</b>. Now please, <a href="
+"\"%s\">activate it</a> then <a href=\"%s\">change your nicename</a>."
+msgstr ""
+"Vous avez déjà installé <b>SF Author Url Control</b>. Maintenant merci de, "
+"<a href=\"%s\">l'activer</a> puis <a href=\"%s\">changer votre nicename</a>."
+
+#: ../user-name-security.php:268
+#, php-format
+msgid ""
+"To do this, please <a href=\"mailto:%s\">ask the administrator</a> to "
+"install and activate the following plugin: <a href=\"http://wordpress.org/"
+"plugins/sf-author-url-control/\">SF Author Url Control</a>. Thank you."
+msgstr ""
+"Pour faire cela, merci de <a href=\"mailto:%s\">demander à un "
+"administrateur</a> d'installet et activer le plugin suivant : <a href="
+"\"http://wordpress.org/plugins/sf-author-url-control/\">SF Author Url "
+"Control</a>. Merci."
+
+#: ../user-name-security.php:271
+#, php-format
+msgid ""
+"You are already using <b>SF Author Url Control</b>. Now please <a href=\"%s"
+"\">change your nicename</a>."
+msgstr ""
+"Vous utilisez déjà <b>SF Author Url Control</b>. Maintenant merdi de <a href="
+"\"%s\">changer votre nicename</a>."
+
+#~ msgid "New user"
+#~ msgstr "Nouvel utilisateur"
+
+#~ msgid "user"
+#~ msgstr "profil"
