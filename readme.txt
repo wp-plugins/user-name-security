@@ -57,14 +57,14 @@ No configuration is necessary. Upload, activate and done. Every previous user ha
 
 == Changelog ==
 
-**2014 mar. 14**
+**2014/03/26**
 
 * Code improvement
 * Bug fixes (in some cases, user "Display Name" and "Login" were not modified)
 * Now an administrator can also trigger every function by saving a user (you don't have to wait every user to log-in)
 * New alerts (admin notices)
 
-**2013 mar. 14**
+**2013/03/08**
 
 * first release
 
