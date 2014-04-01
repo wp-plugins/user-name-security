@@ -1,7 +1,7 @@
 === SX User Name Security ===
 
 Plugin Name:  SX User Name Security
-Version:      2.0
+Version:      2.1
 Plugin URI:   http://www.seomix.fr
 Description:  Prevents WordPress from showing User login and User ID. "User Name Security" filters User Nicename, Nickname and Display Name in order to avoid showing real User Login. This plugin also filters the body_class function to remove User ID and Nicename in it.
 Usage: No configuration necessary. Upload, activate and done.
@@ -15,13 +15,13 @@ Tested up to: 3.9
 Stable tag: trunk
 License: GPL v3
 
-SX User Name Security prevents WordPress from showing your real Login to everyone, by overriding User Nicename, Nickname and Display Name and the body_class function.
+SX User Name Security prevents WordPress from showing your real Login to everyone, by overriding User Nicename, Nickname and Display Name and by hiding the body_class function.
 
 == Description ==
 
-WordPress automaticaly uses "User login" to fill in the "User Display Name". WordPress also allows everyone to use the same value for Nickname, Display Name and Login. A hacker can easily use your "NickName" or "Display Name" to find your real login. The body_class function also shows to everyone your User ID and Login on author pages.
+WordPress automaticaly uses "User login" to fill in the "User Display Name". WordPress also allows everyone to use the same value for Nickname, Display Name and Login. A hacker can easily see then use your "NickName" or "Display Name" to find your real login. The body_class function also shows to everyone your User ID and Login on author pages.
 
-Once activated, SX User Name Security will prevent WordPress from showing those informations
+Once activated, SX User Name Security will prevent WordPress from showing those informations.
 
 **Features**
 
@@ -32,30 +32,40 @@ Body_class function :
 
 User informations :
 
-* When user is logged in, the plugin changes "Display Name" and "Nickname" to a random value if they are equal to user login
+* The plugin changes "Display Name" and "Nickname" to a random value (like 'Ticibe T. Aduvoguripe', 'Lagubo N. Agigerovibe' or 'Datela N. Orejadavino') if they are equal to user login
 * If not, it changes "Display Name" to "Nickname" or "Nickname" to "Display Name" if one of them is equal to user login
 
 New Registration :
 
 * Display Name and Nickname are changed to random value during user registration.
-* Nicename is also changed to a random value like : 'Ticibe T. Aduvoguripe', 'Lagubo N. Agigerovibe' or 'Datela N. Orejadavino'. The Nicename is used to generate the user permalink on the front-end. ;)
+* Nicename is also changed (it's used to generate the user permalink on the front-end). For previous user, a notice has been added to use another plugin to safely change old nicenames. ;)
 
 All functions are translated into french or english.
 
-You can find me here : http://www.seomix.fr, and here is 2 french official posts about this plugin : http://www.seomix.fr/user-name-security/ and http://blog.secupress.fr/user-name-security-cachez-login-utilisateurs-61.html
-The english one : http://blog.secupress.fr/en/user-name-security-hide-user-login-67.html
+You can find me here : http://www.seomix.fr, and here is 2 french official posts about this plugin :
+- http://www.seomix.fr/user-name-security/
+- http://blog.secupress.fr/user-name-security-cachez-login-utilisateurs-61.html
+Here is an english one : http://blog.secupress.fr/en/user-name-security-hide-user-login-67.html
 
 == Installation ==
 
-No configuration is necessary. Upload, activate and done. Every previous user has to visit his profile once in order to hide login informations (an administrator can also simply save again previous users).
+Upload and activate the plugin.
+
+A notice and a button will be displayed to handle all users in order to hide their logins. Then, SX User Name Security will prevent WordPress from ever showing login and ID informations.
 
 == Screenshots ==
 
 1. "SX User Name Security" hides your author nicename and ID (body_class function).
 2. When a user Nickname or Display Name are equals to Login, the plugin uses a random value instead.
 3. During registration, WordPress won't use the same Display Name and Login for new users : "SX User Name Security" uses a random value.
+4. An administrator is able to secure all users at once 
 
 == Changelog ==
+
+**2014/04/01**
+
+* Add a button (JS only) to handle all users created before the plugin installation.
+* Code improvements
 
 **2014/03/26**
 
@@ -72,4 +82,6 @@ No configuration is necessary. Upload, activate and done. Every previous user ha
 
 = Do I need to do anything else for this to work? =
 
-It's better to use http://wordpress.org/plugins/sf-author-url-control/ combined with this plugin to also change current author permalinks (in order to hide login information).
+Yes : just visit the admin user page to see if you have to modify some of your users.
+
+It's also better to use SF Author URL Control (http://wordpress.org/plugins/sf-author-url-control/) combined with this plugin to also change current author permalinks (in order to hide login information).
