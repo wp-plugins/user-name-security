@@ -15,7 +15,7 @@ Tested up to: 3.9
 Stable tag: trunk
 License: GPL v3
 
-SX User Name Security prevents WordPress from showing your real Login to everyone, by overriding User Nicename, Nickname and Display Name and by hiding the body_class function.
+SX User Name Security prevents WordPress from showing your real Login to everyone, by overriding the body_class function, User Nicename, Nickname and Display Name.
 
 == Description ==
 
