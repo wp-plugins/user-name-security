@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name:  SX User Name Security
-Version:      2.1
+Version:      2.2
 Plugin URI:   http://www.seomix.fr
 Description:  Prevents WordPress from showing User login and User ID. "User Name Security" filters User Nicename, Nickname and Display Name in order to avoid showing real User Login. This plugin also filters the body_class function to remove User ID and Nicename in it.
 Availables languages: en_EN, fr_FR
@@ -10,7 +10,7 @@ Author: Daniel Roch
 Author URI: http://www.seomix.fr
 Contributors: juliobox, secupress
 Requires at least: 3.5
-Tested up to: 3.9
+Tested up to: 3.9.1
 License: GPL v3
 
 User Name Security - SeoMix
@@ -293,7 +293,7 @@ function seomix_sx_alert()
 	// URL for activation of sf-author-url-control
 	$active_url = wp_nonce_url( self_admin_url( 'plugins.php?action=activate&plugin=sf-author-url-control%2Fsf-author-url-control.php' ), 'activate-plugin_sf-author-url-control/sf-author-url-control.php' );
 	// URL for sf-author-url-control settings
-	$change_url = self_admin_url( 'profile#user_nicename' );
+	$change_url = self_admin_url( 'profile.php#user_nicename' );
 ?>
 	<div class="error">
 	<p><b>SX User Name Security</b><br>

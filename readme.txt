@@ -1,7 +1,7 @@
 === SX User Name Security ===
 
 Plugin Name:  SX User Name Security
-Version:      2.1
+Version:      2.2
 Plugin URI:   http://www.seomix.fr
 Description:  Prevents WordPress from showing User login and User ID. User Name Security filters the body_class function, User Nicename, Nickname and Display Name in order to avoid showing real User Login.
 Usage: No configuration necessary. Upload, activate and done.
@@ -11,7 +11,7 @@ Author: Confridin
 Author URI: http://www.seomix.fr
 Contributors: Confridin, juliobox, secupress
 Requires at least: 3.1
-Tested up to: 3.9
+Tested up to: 3.9.1
 Stable tag: trunk
 License: GPL v3
 
@@ -61,6 +61,10 @@ A notice and a button will be displayed to handle all users in order to hide the
 4. An administrator is able to secure all users at once 
 
 == Changelog ==
+
+**2014/04/01**
+
+* Minor fix for the admin profil URL link.
 
 **2014/04/01**
 
