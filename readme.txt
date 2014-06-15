@@ -62,7 +62,7 @@ A notice and a button will be displayed to handle all users in order to hide the
 
 == Changelog ==
 
-**2014/04/01**
+**2014/06/15**
 
 * Minor fix for the admin profil URL link.
 
