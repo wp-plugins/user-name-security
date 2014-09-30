@@ -62,9 +62,9 @@ A notice and a button will be displayed to handle all users in order to hide the
 
 == Changelog ==
 
-**2014/06/15**
+**2014/09/30**
 
-* Major fix for the fix button : it will no longer generate 404 error pages (but people will still be able to guess your real login with your author URL).
+* Major fix for the "fix username" button : it will no longer generate 404 error pages (but people will still be able to guess your real login with your author URL).
 * Add a column in the admin user list showing "Display Name" for every user.
 * Add a better explanation about the "Fix Username" button.
 
