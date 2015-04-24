@@ -11,7 +11,7 @@ Author: Confridin
 Author URI: http://www.seomix.fr
 Contributors: Confridin, juliobox, secupress
 Requires at least: 3.1
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: trunk
 License: GPL v3
 
@@ -67,7 +67,6 @@ A notice and a button will be displayed to handle all users in order to hide the
 * Major fix for the "fix username" button : it will no longer generate 404 error pages (but people will still be able to guess your real login with your author URL).
 * Add a column in the admin user list showing "Display Name" for every user.
 * Add a better explanation about the "Fix Username" button.
-
 
 **2014/06/15**
 

@@ -10,7 +10,7 @@ Author: Daniel Roch
 Author URI: http://www.seomix.fr
 Contributors: juliobox, secupress
 Requires at least: 3.5
-Tested up to: 3.9.1
+Tested up to: 4.2
 License: GPL v3
 
 User Name Security - SeoMix
