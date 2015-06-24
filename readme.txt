@@ -1,5 +1,4 @@
 === SX User Name Security ===
-
 Plugin Name:  SX User Name Security
 Version:      2.3
 Plugin URI:   http://www.seomix.fr
@@ -9,6 +8,7 @@ Availables languages : en_EN, fr_FR
 Tags: security, protect, protection, login, user, users, nicename, nickname, display name, user id, user login, user nicename, user nickname, user display name, body_class
 Author: Confridin
 Author URI: http://www.seomix.fr
+Donate link: http://www.seomix.fr/dons/
 Contributors: Confridin, juliobox, secupress
 Requires at least: 3.1
 Tested up to: 4.2
